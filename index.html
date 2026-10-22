@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdel Salam Elatawy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./static/media/images/logo.png">
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <link rel="stylesheet" href="./static/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="navbar" aria-label="Main navigation">
+                <a class="logo" href="#">
+                    <img src="./static//media/images/logo.png" alt="Logo">
+                </a>
+                <button class="toggle" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#">الرئسيه</a></li>
+                    <li><a href="#services">خدماتي</a></li>
+                    <li><a href="#about">عني</a></li>
+                    <li><a href="#skills">مهاراتي</a></li>
+                    <li><a href="#portfolio">اعمالي</a></li>
+                    <li><a href="#contact">تواصل</a></li>
+                </ul>
+
+                <a class="hire-button" href="tel:01150727716">
+                    <span>تواصل مباشر</span>
+                    <i class="fa-solid fa-phone-flip"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="landing">
+        <div class="container">
+            <div class="info">
+                <span>مرحباً،أنا</span>
+                <h1>عبد السلام العطوي</h1>
+                <span>مطور برمجيات · Full-Stack Developer</span>
+                <p>مطوّر مواقع ويب عصرية وعملية تساعدك علي عرض خدماتك، وتبني حضورك الرقمي، وتحول أفكارك إلى مشاريع
+                    حقيقية.</p>
+                <div class="landing-btns">
+                    <a href="#portfolio" class="btn btn-prot">شاهد أعمالي</a>
+                    <a href="#contact" class="btn btn-contact">تواصل معي</a>
+                </div>
+            </div>
+            <div>
+                <div class="dev-logo">
+                    <img src="./static/media/images/my_photo.png" alt="My Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="title">
+                <h1>خدماتي</h1>
+                <p class="discription">أقدّم خدمات تطوير ويب مخصصة تساعدك على تحويل أفكارك إلى مشاريع رقمية احترافية، من
+                    تصميم الواجهات إلى برمجة الأنظمة وربط قواعد البيانات، مع الاهتمام بالأداء وسهولة الاستخدام.</p>
+            </div>
+            <div class="services-box">
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>تطوير مواقع الويب</h3>
+                    <p>إنشاء مواقع عصرية ومتجاوبة للأفراد والشركات والمشروعات، بتصميم احترافي وتجربة استخدام سلسة.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>تطوير الأنظمة وقواعد البيانات</h3>
+                    <p>برمجة وظائف المواقع باستخدام Python وFlask، مع إنشاء قواعد بيانات SQL لإدارة المعلومات ومعالجتها
+                        بكفاءة.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>تصميم واجهات الويب</h3>
+                    <p>بناء واجهات جذابة ومتوافقة مع الموبايل والكمبيوتر باستخدام HTML وCSS وJavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+                <img src="./static/media/images/my_photo.png" />
+            </div>
+            <div class="info">
+                <h1 class="title">نبذه عني</h1>
+                <p>انا عبد السلام مسعد العطوي طالب في كليه طب بيطري جامعه الازهر لكن شغفي كبير بالبرمجه والالكترونيات
+                    فتعلمت برمجه الويب وهدفي ان شاء الله اتعلم الذكاء الاصطناعي وادمجه في المواقع بتاعتي وبردو في الحياه
+                    العمليه</p>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="title">مهاراتي التقنيه</h2>
+            <div class="skills-box">
+                <div class="skill">Python</div>
+                <div class="skill">Html</div>
+                <div class="skill">Js</div>
+                <div class="skill">Css</div>
+                <div class="skill">git & githup</div>
+                <div class="skill">SQL</div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="title">أعمالي</h2>
+            <div class="projects-box">
+                <div class="project">
+                    <img src="./static/media/images/project_1.png" alt="Dr Vet">
+                    <div class="info">
+                        <span class="domain">Web App</span>
+                        <h3 class="project-name">Dr Vet</h3>
+                        <p class="describction">Dr Vet هو تطبيق ويب متخصص في الرعاية البيطرية، بيقدم خدمات لأصحاب
+                            الحيوانات الأليفة، بالإضافة إلى مقالات وبودكاستات للأطباء البيطريين وطلاب الطب البيطري. يوفر
+                            الموقع نظامًا لحجز المواعيد، وعرض الخدمات والأسعار، مع لوحة تحكم إدارية تتيح للدكتور إدارة
+                            محتوى الموقع وتعديل بياناته وأقسامه بسهولة. المشروع قابل للتخصيص وجاهز للبيع، مع إمكانية
+                            تهيئته بما يناسب احتياجات كل عيادة أو نشاط بيطري.</p>
+                    </div>
+                    <a target="_blank" href="https://abdelsalamelatawy1.pythonanywhere.com/" class="link">تفقد المشروع
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <img src="./static/media/images/project_2.png" alt="Dr Vet">
+                    <div class="info">
+                        <span class="domain">Web site</span>
+                        <h3 class="project-name">Template Portfolio</h3>
+                        <p class="describction">قالب بورتفوليو شخصي بتصميم عصري وأنيق، مناسب لعرض المهارات والمشاريع
+                            والخدمات بشكل منظم وجذاب. يتميز بتعدد الأقسام، والأنيميشن والتأثيرات الحركية، وتصميم متجاوب
+                            مع مختلف أحجام الشاشات، بالإضافة إلى إمكانية تخصيص الألوان والنصوص والصور والأقسام بما يناسب
+                            هوية واحتياجات كل شخص.</p>
+                    </div>
+                    <a target="_blank" href="https://ghhrj.github.io/Template_three/#features" class="link">تفقد المشروع
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <img src="./static/media/images/project_3.png" alt="Dr Vet">
+                    <div class="info">
+                        <span class="domain">Web site</span>
+                        <h3 class="project-name">Template Admin Dashboard</h3>
+                        <p class="describction">قالب لوحة تحكم إدارية (Admin Dashboard) بتصميم عصري ومنظم، مناسب لعرض
+                            الإحصائيات وإدارة المشروعات والمهام والملفات. يتميز بتنوع الأقسام، وتنظيم البيانات، مع
+                            إمكانية تخصيص التصميم والألوان والمحتوى بما يناسب احتياجات كل مشروع.</p>
+                    </div>
+                    <a target="_blank" href="https://ghhrj.github.io/Template_four/index.html" class="link">تفقد المشروع
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="head">
+                <span>LET'S WORK TOGETHER</span>
+                <h2 class="title">تواصل معي</h2>
+                <p>هل لديك فكره مشروع أو تحتاج الي موقع ويب خاص بك ؟</p>
+                <p>يسعدني أن أسمع منك ونبدأ معاً في تحويل فكرتك الي واقع.</p>
+            </div>
+            <div class="f-contact-box">
+                <a class="f-contact" href="https://wa.me/2001150727716" target="_blank">
+                    <i class="fa-brands fa-whatsapp icon whats"></i>
+                    <div class="info">
+                        <h4 class="name">تواصل سريع عبر واتساب</h4>
+                        <p>+20 011 5072 7716</p>
+                    </div>
+                    <i class="fa-solid fa-square-arrow-up-right arrow"></i>
+                </a>
+                <a class="f-contact" href="mailto:abdelsalamelatawy1@gmail.com تواصل%20معي&body=عايز%20اعرف%20تفاصيل%20الخدمه" target="_blank">
+                    <i class="fa-regular fa-envelope icon email"></i>
+                    <div class="info">
+                        <h4 class="name">البريد الالكتروني</h4>
+                        <p>abdelsalamelatawy1@gmail.com</p>
+                    </div>
+                    <i class="fa-solid fa-square-arrow-up-right arrow"></i>
+                </a>
+            </div>
+            <div class="other">
+                <span>أو تقدر تلاقني علي</span>
+                <div class="oth-contact-box">
+                    <a href="https://khamsat.com/user/abdelsalam_elatawy" class="oth-contact" target="_blank">
+                        <img src="./static/media/images/khamsat-log.png" alt="خمسات">
+                        <div class="info">
+                            <h4 class="name">خمسات</h4>
+                            <p>خدماتي علي خمسات</p>
+                        </div>
+                        <i class="fa-solid fa-square-arrow-up-right arrow"></i>
+                    </a>
+                    <a href="https://github.com/ghhrj" class="oth-contact" target="_blank">
+                        <i class="fa-brands fa-github icon github"></i>
+                        <div class="info">
+                            <h4 class="name">GitHub</h4>
+                            <p>مشاريعي وأكوادي</p>
+                        </div>
+                        <i class="fa-solid fa-square-arrow-up-right arrow"></i>
+                    </a>
+                </div>
+                <div class="span foot">مستعد دائماً لفرص جديدة</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Abdel Salam Elatawy. All rights reserved.</p>
+    </footer>
+    <script src="./static/js/main.js"></script>
+</body>
+
+</html>
